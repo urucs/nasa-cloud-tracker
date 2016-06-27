@@ -1,0 +1,12 @@
+
+GOES 13 Imager frame  39 at UTC 07:38:07.791 day 340 of 2014
+Vis pixels :   9061, 22912    lines :  10077, 12344
+Vis Lon    : -114.165,999999 Lat   : -19.6636,999999
+Imager ch4:count(0,1023) => [(modea-0)/1]^1 =Uchar> (255,0)
+(xscale,yscale) => (0.571429,1)
+Vis pixels: 14182,  21181 lines: 10175,  12574
+(xstride,ystride) => (7,4)
+IMC status:      1
+nadir pixel,line:  15352,  8050
+Ref lon,d,lat,yaw:  -74.99990305,   42164.17478,         0,         0
+Attitude roll,pitch,yaw:          0,         0,         0  000 0  005

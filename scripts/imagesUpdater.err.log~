@@ -1,0 +1,840 @@
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 2, in <module>
+    import sys, time, imagesUpdate
+  File "/home/guido/scripts/imagesUpdate.py", line 2, in <module>
+    import imagesDownloader
+  File "/home/guido/scripts/imagesDownloader.py", line 20, in <module>
+    handler = logging.handlers.RotatingFileHandler('./logs/update_log.out', maxBytes=10*1024, backupCount=5)
+  File "/usr/lib/python2.7/logging/handlers.py", line 117, in __init__
+    BaseRotatingHandler.__init__(self, filename, mode, encoding, delay)
+  File "/usr/lib/python2.7/logging/handlers.py", line 64, in __init__
+    logging.FileHandler.__init__(self, filename, mode, encoding, delay)
+  File "/usr/lib/python2.7/logging/__init__.py", line 903, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 926, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 2] No such file or directory: '/logs/update_log.out'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 2, in <module>
+    import sys, time, imagesUpdate
+  File "/home/guido/scripts/imagesUpdate.py", line 2, in <module>
+    import imagesDownloader
+  File "/home/guido/scripts/imagesDownloader.py", line 20, in <module>
+    handler = logging.handlers.RotatingFileHandler('./logs/update_log.out', maxBytes=10*1024, backupCount=5)
+  File "/usr/lib/python2.7/logging/handlers.py", line 117, in __init__
+    BaseRotatingHandler.__init__(self, filename, mode, encoding, delay)
+  File "/usr/lib/python2.7/logging/handlers.py", line 64, in __init__
+    logging.FileHandler.__init__(self, filename, mode, encoding, delay)
+  File "/usr/lib/python2.7/logging/__init__.py", line 903, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 926, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 2] No such file or directory: '/logs/update_log.out'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 2, in <module>
+    import sys, time, imagesUpdate
+  File "/home/guido/scripts/imagesUpdate.py", line 2, in <module>
+    import imagesDownloader
+  File "/home/guido/scripts/imagesDownloader.py", line 20, in <module>
+    handler = logging.handlers.RotatingFileHandler('./logs/update_log.out', maxBytes=10*1024, backupCount=5)
+  File "/usr/lib/python2.7/logging/handlers.py", line 117, in __init__
+    BaseRotatingHandler.__init__(self, filename, mode, encoding, delay)
+  File "/usr/lib/python2.7/logging/handlers.py", line 64, in __init__
+    logging.FileHandler.__init__(self, filename, mode, encoding, delay)
+  File "/usr/lib/python2.7/logging/__init__.py", line 903, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 926, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 2] No such file or directory: '/logs/update_log.out'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 2, in <module>
+    import sys, time, imagesUpdate
+  File "/home/guido/scripts/imagesUpdate.py", line 2, in <module>
+    import imagesDownloader
+  File "/home/guido/scripts/imagesDownloader.py", line 20, in <module>
+    handler = logging.handlers.RotatingFileHandler('./logs/update_log.out', maxBytes=10*1024, backupCount=5)
+  File "/usr/lib/python2.7/logging/handlers.py", line 117, in __init__
+    BaseRotatingHandler.__init__(self, filename, mode, encoding, delay)
+  File "/usr/lib/python2.7/logging/handlers.py", line 64, in __init__
+    logging.FileHandler.__init__(self, filename, mode, encoding, delay)
+  File "/usr/lib/python2.7/logging/__init__.py", line 903, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 926, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 2] No such file or directory: '/logs/update_log.out'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 69, in updateLatest
+    os.rename(images_root + subpath + str(i) + '.jpg',images_root + subpath + str(i+1) + '.jpg')
+OSError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
+Traceback (most recent call last):
+  File "/home/guido/scripts/imagesUpdater.py", line 5, in <module>
+    imagesUpdate.update()
+  File "/home/guido/scripts/imagesUpdate.py", line 33, in update
+    imagesDownloader.updateLatest(level2_url)
+  File "/home/guido/scripts/imagesDownloader.py", line 65, in updateLatest
+    os.remove(images_root + subpath + str(i) + '.jpg')
+OSError: [Errno 2] No such file or directory: '/var/www/clouds/img/goeseast/argentina/ir2/19.jpg'
